@@ -1,0 +1,32 @@
+<!-- views/index.ejs -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-Do List</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <script src="/script.js"></script>
+</head>
+<body class="bg-light">
+    <div class="container mt-5">
+        <h2 class="text-center">To-Do List</h2>
+        <div class="mb-3">
+            <form id="add-todo-form" method="POST" action="/api/todos">
+                <div class="form-row">
+                    <div class="col">
+                        <input type="text" id="todo-text" name="text" class="form-control" placeholder="Enter new to-do" required>
+                    </div>
+                    <div class="col">
+                        <input type="datetime-local" id="todo-date-time" name="date_time" class="form-control" required>
+                    </div>
+                    <div class="col">
+                        <button type="submit" class="btn btn-primary">Add</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+        <ul id="todo-list" class="list-group"></ul>
+    </div>
+</body>
+</html>
