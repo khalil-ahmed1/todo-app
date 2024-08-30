@@ -10,6 +10,17 @@ A simple To-Do application built with Node.js, Express.js, EJS, and Bootstrap. T
 - View To-Dos with date and time
 - Responsive UI with Bootstrap
 
+## Screenshots
+
+### Home Page
+![Home Page](screenshots/Home.png)
+
+### Registration Page
+![Registration Page](screenshots/Register.png)
+
+### Dashboard (To-Do List)
+![To-Do List](screenshots/Dashboard.png)
+
 
 ### Prerequisites
 
@@ -49,4 +60,4 @@ A simple To-Do application built with Node.js, Express.js, EJS, and Bootstrap. T
 - **Home Page:** Provides options to register and log in.
 - **Register:** Create a new user account.
 - **Login:** Access your To-Do list.
-- **To-Do List:** Add, edit, mark as complete, and delete tasks.
+- **Dashboard:** Add, edit, mark as complete, and delete tasks.
