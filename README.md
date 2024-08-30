@@ -16,6 +16,12 @@ A simple To-Do application built with Node.js, Express.js, EJS, and Bootstrap. T
 - Node.js
 - MySQL
 
+### Install dependencies:
+
+   ```bash
+   npm install
+   ```
+
 ### Set up the database:
 
    - Create a MySQL database and import the provided schema:
@@ -36,6 +42,7 @@ A simple To-Do application built with Node.js, Express.js, EJS, and Bootstrap. T
        FOREIGN KEY (user_id) REFERENCES users(id)
      );
      ```
+
 
 ## Usage
 
